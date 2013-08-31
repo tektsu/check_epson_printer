@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5B8E2814B28C5F00A2A044 /* check_epson_printer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5B8E2614B28C5F00A2A044 /* check_epson_printer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA5B8E1814B28C3700A2A044 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA5B8E1A14B28C3700A2A044 /* check_epson_printer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = check_epson_printer; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5B8E2014B28C3700A2A044 /* check_epson_printer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = check_epson_printer.1; sourceTree = "<group>"; };
+		AA5B8E2614B28C5F00A2A044 /* check_epson_printer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = check_epson_printer.cpp; sourceTree = "<group>"; };
+		AA5B8E2714B28C5F00A2A044 /* check_epson_printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = check_epson_printer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5B8E1714B28C3700A2A044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5B8E0F14B28C3700A2A044 = {
+			isa = PBXGroup;
+			children = (
+				AA5B8E1D14B28C3700A2A044 /* check_epson_printer */,
+				AA5B8E1B14B28C3700A2A044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5B8E1B14B28C3700A2A044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5B8E1A14B28C3700A2A044 /* check_epson_printer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5B8E1D14B28C3700A2A044 /* check_epson_printer */ = {
+			isa = PBXGroup;
+			children = (
+				AA5B8E2014B28C3700A2A044 /* check_epson_printer.1 */,
+				AA5B8E2614B28C5F00A2A044 /* check_epson_printer.cpp */,
+				AA5B8E2714B28C5F00A2A044 /* check_epson_printer.h */,
+			);
+			path = check_epson_printer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5B8E1914B28C3700A2A044 /* check_epson_printer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5B8E2314B28C3700A2A044 /* Build configuration list for PBXNativeTarget "check_epson_printer" */;
+			buildPhases = (
+				AA5B8E1614B28C3700A2A044 /* Sources */,
+				AA5B8E1714B28C3700A2A044 /* Frameworks */,
+				AA5B8E1814B28C3700A2A044 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = check_epson_printer;
+			productName = check_epson_printer;
+			productReference = AA5B8E1A14B28C3700A2A044 /* check_epson_printer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5B8E1114B28C3700A2A044 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AA5B8E1414B28C3700A2A044 /* Build configuration list for PBXProject "check_epson_printer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA5B8E0F14B28C3700A2A044;
+			productRefGroup = AA5B8E1B14B28C3700A2A044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5B8E1914B28C3700A2A044 /* check_epson_printer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5B8E1614B28C3700A2A044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5B8E2814B28C5F00A2A044 /* check_epson_printer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA5B8E2114B28C3700A2A044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA5B8E2214B28C3700A2A044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA5B8E2414B28C3700A2A044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lnetsnmp",
+					"-lboost_program_options-mt",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5B8E2514B28C3700A2A044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lnetsnmp",
+					"-lboost_program_options-mt",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5B8E1414B28C3700A2A044 /* Build configuration list for PBXProject "check_epson_printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5B8E2114B28C3700A2A044 /* Debug */,
+				AA5B8E2214B28C3700A2A044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5B8E2314B28C3700A2A044 /* Build configuration list for PBXNativeTarget "check_epson_printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5B8E2414B28C3700A2A044 /* Debug */,
+				AA5B8E2514B28C3700A2A044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5B8E1114B28C3700A2A044 /* Project object */;
+}
